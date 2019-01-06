@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+}
+
+.item-1 {
+  width: 61px;
+}
+
+.item-2 {
+  width: 62px;
+}
+
+.item-3 {
+  width: 63px;
+}
+
+.item-4 {
+  width: 64px;
+}
+
+h1 {
+  color: orange;
+}
+
+h1 {
+  border: 1px solid black;
+}
+
+.btn {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #e84610;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
