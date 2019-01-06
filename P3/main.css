@@ -1,0 +1,31 @@
+.item-black {
+  background-color: #000;
+}
+
+.item-red {
+  background-color: #e84610;
+}
+
+.item-green {
+  background-color: #bada55;
+}
+
+body {
+  background-color: #000;
+}
+
+div {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #000;
+}
+
+h1 {
+  color: #fff;
+}
+
+div.conatiner {
+  background-color: #ff7700;
+}
+
+/*# sourceMappingURL=main.css.map */
