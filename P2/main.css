@@ -1,4 +1,4 @@
-/* Deep nesting is a bad coding practice
+/* Deep nesting is a bad coding practice in scss
 .wrapper {
     .main {
         .container {
@@ -27,11 +27,22 @@ p {
   text-transform: uppercase;
 }
 
-.container {
-  background-image: url("https:dummyimage.com/450x250/f00/fff");
+.div {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.container {
+  background-image: url("https:dummyimage.com/450x250/f00/fff");
+}
+
+.article {
+  background-image: url("https:dummyimage.com/450x250/000/fff");
+}
+
+.post {
+  background-image: url("https:dummyimage.com/450x250/ddd/fff");
 }
 
 /*# sourceMappingURL=main.css.map */
