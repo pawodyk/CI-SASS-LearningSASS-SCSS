@@ -47,6 +47,29 @@ h1 {
     }
 }
 
+@mixin unicornify() {
+    background-color: pink;
+    color: white;
+    @content;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    @include unicornify{
+        //border: 1px solid pink;
+        //border-radius:100%;
+        
+        border: {
+            width: 1px;
+            style: solid;
+            color: pink;
+            radius: 100%;
+        }; 
+        text-align: center;
+    }
+}
+
 .btn {
     @include button(#e84610, 200px)
 }
